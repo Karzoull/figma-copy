@@ -184,3 +184,54 @@ header .bouttons .join {
         font-size: 30px;
     }
 }
+
+.text {
+    font-family: "Bricolage Grotesque", Sans-serif;
+    margin-top: 10em;
+    padding: 0 17em;
+}
+
+.text-contend{
+    margin-top: -40px;
+}
+
+.text-contend .card-contend2,
+.text-contend .card-contend {
+    display: flex;
+    gap: 5em;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+
+
+
+.text h2 {
+    font-size: 30px;
+}
+
+.text .main {
+    gap: 20px;
+}
+
+.text .main i {
+    font-size: 25px;
+    color: black;
+}
+
+.text  p{
+    padding-top: 30px;
+    font-size: 17px;
+    line-height: 25px;
+    color: #414141;
+}
+
+.text h3{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.text .card .main {
+    display: flex;
+}
