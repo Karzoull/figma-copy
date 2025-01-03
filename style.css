@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #f3f3f3; /* Couleur de fond */
+    background-image: radial-gradient(circle, #cccccc 1px, transparent 1px);
+    background-size: 20px 20px; /* Espacement entre les points */
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+    padding: 0 50px;
+    background-color: #f3f3f3;
+    font-family: "Bricolage Grotesque", Sans-serif;
+}
+
+nav .link a:not(:last-child) {
+    color: #536e97;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+nav .link a:not(:last-child) {
+    margin-right:25px;
+}
+
+nav .logo img{
+    height: 32px;
+}
+
+nav .login {
+   background-color: white;
+   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+   border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #414141;
+    padding: 7px 24px;
+    border-radius: 3px;
+}
+
+nav .sign {
+    background-color: #1044FE;
+    padding: 7px 24px;
+    color: white;
+    border-radius: 3px;
+}
+
+nav .icon {
+    display: none;
+}
+
+header {
+    text-align: center;
+    margin-top: 4em;
+    font-family: 'Bricolage Grotesque', sans-serif;
+}
+
+header h2 {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+header .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 6em;
+}
+
+header .image img {
+    height: 32px;
+}
+
+header .image img:not(:last-child){
+    margin-right: 40px;
+}
+
+header .contend h1 {
+    font-size: 80px;
+    padding-top: 40px;
+}
+
+header .contend .h2{
+    font-size: 28px;
+    color: #414141;
+    line-height: 32px;
+    padding: 20px 0;
+}
+
+header .bouttons a:not(:last-child) {
+    margin-right: 25px;
+}
+
+header .bouttons{
+    padding-top: 20px;
+}
+
+header .bouttons .learn {
+    font-family: "Bricolage Grotesque", Sans-serif;
+    background-color: white;
+    color: #001A42;
+    font-weight: 700;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #414141;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 12px 24px;
+}
+
+header .bouttons .join {
+    font-family: "Bricolage Grotesque", Sans-serif;
+    background-color: #1044FF;
+    color: white;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 1px;
+    border-color: #414141;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    padding: 10px 20px 12px 24px;
+}
+
+.main {
+    margin-top: 100px;
+    color: #414141;
+}
+
+.main h2 {
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.main .vidéo img {
+    border: 4px solid;
+    color: black;
+    border-radius: 20px;
+    height: 38em;
+    margin-top: 35px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.main .btn {
+    margin-top: 50px;
+}
+
+.main .btn a {
+    font-size: 20px;
+    background-color: #1044FF;
+    padding: 12px 52px ;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    border: 2px solid;
+    border-color: #414141;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s ease;
+}
+
+.main .btn a:hover {
+    background-color: #082a8a; /* Bleu foncé */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.8); /* Ombre plus forte */
+}
+
+@media screen and (max-width:1200px) {
+    nav .link {
+        display: none;
+    }
+
+    nav .icon{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    nav .icon i {
+        color: black;
+        font-size: 30px;
+    }
+}
