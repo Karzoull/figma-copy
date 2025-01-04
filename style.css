@@ -368,3 +368,49 @@ header .bouttons .join {
 #learn4{
     margin-top: -3em;
 }
+
+.project {
+    font-family: "Bricolage Grotesque", Sans-serif;
+    margin-top: 7em;
+}
+
+.project h2 {
+    text-align: center;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.project .projets .card-contend {
+    display: flex;
+    padding: 8em 0;
+    justify-content: center;
+    gap: 5em;
+}
+
+.project img {
+    height: 13em;
+    border: 4px solid;
+    border-radius: 5px;
+}
+
+.project .card h3 {
+    font-size: 20px;
+    padding: 15px 0;
+    color: #414141;
+    font-weight: 500;
+}
+
+.project .card p{
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #414141;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.project .projets .card-contend2 {
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: -2em;
+}
