@@ -292,8 +292,8 @@ header .bouttons .join {
 }
 
 .rond1 .circle {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #A976FF;
     border-radius: 50%;
     display: flex;
@@ -302,8 +302,8 @@ header .bouttons .join {
 }
 
 .rond2 .circle{
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #76D6FF;
     border-radius: 50%;
     display: flex;
@@ -312,8 +312,8 @@ header .bouttons .join {
 }
 
 .rond3 .circle {
-    width: 10px;
-    height: 10px;
+    width: 8px;
+    height: 8px;
     background-color: #2DEB3B;
     border-radius: 50%;
     display: flex;
@@ -414,3 +414,54 @@ header .bouttons .join {
     gap: 5em;
     margin-top: -2em;
 }
+
+.image{
+    font-family: "Bricolage Grotesque", Sans-serif;
+    padding-top: 7em;
+}
+
+.image h2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+}
+
+.image .img {
+    display: flex;
+    justify-content: center;
+    padding: 2em 0;
+}
+
+.image .img img {
+    height: 36em;
+    border-radius: 7px;
+}
+
+marquee{
+    padding-top: 10em;
+   
+}
+
+marquee img {
+    height: 22em;
+    width: 32em;
+    border-radius: 20px;
+    margin-right: 25px;
+}
+
+#marquee {
+    margin-top: -120px;
+}
+
+.suite-learn {
+   font-family: "Bricolage Grotesque", Sans-serif;
+}
+
+.suite-learn .main h2{
+    font-size: 48px;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+}
+
